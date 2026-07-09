@@ -1,0 +1,28 @@
+{
+  "name": "@ai-native-solutions/nhs-reinjection-mcp",
+  "version": "1.0.0",
+  "description": "nhs-reinjection MCP server · stdio wrapper around @ai-native-solutions/nhs-reinjection-sdk",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "nhs-reinjection-mcp": "src/index.js"
+  },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["nhs-reinjection", "mcp", "model-context-protocol", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/nhs-reinjection-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@ai-native-solutions/nhs-reinjection-sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
